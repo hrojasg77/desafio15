@@ -1,0 +1,7 @@
+pm2 start src/main.js -- 8081 CLUSTER
+pm2 start src/main.js -- 8081 FORK
+
+pm2 start src/main.js --name="Server1" --watch -- 8082
+pm2 start src/main.js --name="Server2" --watch -- 8083
+pm2 start src/main.js --name="Server3" --watch -- 8084
+pm2 start src/main.js --name="Server1" --watch -- 8085

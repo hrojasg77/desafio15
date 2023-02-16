@@ -1,0 +1,8 @@
+{
+    "apps": [
+      {
+        "script": "src/main.js",
+        "node_args": "--varios=500"
+      }
+    ]
+  }
